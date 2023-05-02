@@ -333,7 +333,7 @@ const jsonData = JSON.parse(str);
 
 function getPnrInfo(jsonData, active) {
     if (active) {
-        let pnrSummay = "**** PNR INFO ****";
+        let pnrSummay = "\n**** PNR INFO ****\n";
         pnrSummay += `- CartId: ${jsonData.cartId}\n`;
         pnrSummay += `- PNR: ${jsonData.pnr}\n`;
         pnrSummay += `- Travelers code: ${jsonData.travelersCode}\n`;
